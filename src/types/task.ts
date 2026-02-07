@@ -5,8 +5,6 @@ export interface Task {
   title: string;
   description?: string;
   completed: boolean;
-  createdAt: Date;
-  completedAt?: Date;
   difficulty: TaskDifficulty;
   xpReward: number;
 }
